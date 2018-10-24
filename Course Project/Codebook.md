@@ -15,7 +15,7 @@
 | subject | Subject ID |
 
 ## Summary of tidy data
-          activity     subject     TimeBodyAccelerometerMeanX TimeBodyAccelerometerMeanY TimeBodyAccelerometerMeanZ TimeBodyAccelerometerStandardDeviationX
+  activity     subject     TimeBodyAccelerometerMeanX TimeBodyAccelerometerMeanY TimeBodyAccelerometerMeanZ TimeBodyAccelerometerStandardDeviationX
  WALKING           :30   Min.   : 1.0   Min.   :0.2216             Min.   :-0.040514          Min.   :-0.15251           Min.   :-0.9961                        
  WALKING_UPSTAIRS  :30   1st Qu.: 8.0   1st Qu.:0.2712             1st Qu.:-0.020022          1st Qu.:-0.11207           1st Qu.:-0.9799                        
  WALKING_DOWNSTAIRS:30   Median :15.5   Median :0.2770             Median :-0.017262          Median :-0.10819           Median :-0.7526                        
