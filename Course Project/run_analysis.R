@@ -47,7 +47,7 @@ names(subData) <- gsub("-std-", "StandardDeviation", names(subData))
 
 ## 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 tidyData <- aggregate(subData[, 3:ncol(subData)], by = list(activity = subData$activity, subject = subData$subject), FUN = mean)
-write.table(tidyData, "./TidyData.txt")
+write.table(tidyData, "./TidyData.txt", row.names = FALSE)
 
 ##dat <- read.table("./TidyData.txt")
 ##View(dat)
