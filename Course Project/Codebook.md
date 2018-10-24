@@ -1,10 +1,8 @@
 # Code Book
 
-## Overview
-
-
 ## Data
-| Variable names | Description |
+| Names | Description |
+| ----- | ----------- |
 | wholeData | A set of entire data |
 | subData | A subset of mean and standard deviation data from wholeData |
 | tidyData | An independent tidy data set with the average of each variable for each activity and each subject |
